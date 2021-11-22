@@ -1,4 +1,4 @@
-#ifndef STACK_H
+п»ї#ifndef STACK_H
 #define STACK_H
 
 /**
@@ -46,14 +46,14 @@ public:
 	// methods
 
 	/**
-	* возвращает количество элементов в стеке
+	* РІРѕР·РІСЂР°С‰Р°РµС‚ РєРѕР»РёС‡РµСЃС‚РІРѕ СЌР»РµРјРµРЅС‚РѕРІ РІ СЃС‚РµРєРµ
 	* @return stack length
 	*/
 	int getLength() {
 		return length_;
 	}
 	/**
-	* инициализация стека
+	* РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ СЃС‚РµРєР°
 	* @param n - stack length
 	* @param arr - pointer at the first elem of the steck
 	* @return ref to the Stack
@@ -69,7 +69,7 @@ public:
 		return *this;
 	}
 	/**
-	* добавление элемента в конец стека
+	* РґРѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РІ РєРѕРЅРµС† СЃС‚РµРєР°
 	* @param elem - element to add to the end of the stack
 	* @return ref to the Stack
 	*/
@@ -86,7 +86,7 @@ public:
 		return *this;
 	}
 	/** 
-	* удаление элемента из конца стека
+	* СѓРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РёР· РєРѕРЅС†Р° СЃС‚РµРєР°
 	* @return ref to the Stack
 	*/
 	Stack<Type>& remove() {
@@ -102,14 +102,14 @@ public:
 		return *this;
 	}
 	/** 
-	* возвращает последний элемент стека
+	* РІРѕР·РІСЂР°С‰Р°РµС‚ РїРѕСЃР»РµРґРЅРёР№ СЌР»РµРјРµРЅС‚ СЃС‚РµРєР°
 	* @return the last element of the Stack
 	*/ 
 	Type& last() {
 		return stack_[length_ - 1];
 	}
 	/**
-	* проверка стека на пустоту
+	* РїСЂРѕРІРµСЂРєР° СЃС‚РµРєР° РЅР° РїСѓСЃС‚РѕС‚Сѓ
 	* @return `true` if Stack is empty , `faulse` if is not empty
 	*/
 	bool isEmpty() {
@@ -119,7 +119,7 @@ public:
 		return true;
 	}
 	/**
-	* удаляет содержимое стека, но не сам стек
+	* СѓРґР°Р»СЏРµС‚ СЃРѕРґРµСЂР¶РёРјРѕРµ СЃС‚РµРєР°, РЅРѕ РЅРµ СЃР°Рј СЃС‚РµРє
 	* @return ref to the Stack
 	*/
 	Stack<Type>& erase() {

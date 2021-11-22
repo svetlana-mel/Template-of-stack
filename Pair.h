@@ -1,4 +1,4 @@
-#ifndef PAIR_H
+п»ї#ifndef PAIR_H
 #define PAIR_H
 
 class Pair {
@@ -16,7 +16,7 @@ public:
 	}
 	int getInt() { return intP; }
 	double getDouble() { return doubleP; }
-	// перегрузки операторов
+	// РїРµСЂРµРіСЂСѓР·РєРё РѕРїРµСЂР°С‚РѕСЂРѕРІ
 	Pair& operator= (const Pair& p) {
 		intP = p.intP;
 		doubleP = p.doubleP;
